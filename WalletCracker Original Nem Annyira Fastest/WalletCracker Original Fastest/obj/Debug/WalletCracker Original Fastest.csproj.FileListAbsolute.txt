@@ -1,0 +1,16 @@
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\bin\Debug\WalletCracker Original Fastest.exe.config
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\bin\Debug\WalletCracker Original Fastest.exe
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\bin\Debug\WalletCracker Original Fastest.pdb
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\bin\Debug\NBitcoin.dll
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\bin\Debug\System.Buffers.dll
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\bin\Debug\NBitcoin.xml
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\bin\Debug\Newtonsoft.Json.xml
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\bin\Debug\System.Buffers.xml
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\obj\Debug\WalletCracker Original Fastest.csproj.AssemblyReference.cache
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\obj\Debug\WalletCracker Original Fastest.csproj.CoreCompileInputs.cache
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\obj\Debug\WalletCr.17506892.Up2Date
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\obj\Debug\WalletCracker Original Fastest.exe
+D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\obj\Debug\WalletCracker Original Fastest.pdb
