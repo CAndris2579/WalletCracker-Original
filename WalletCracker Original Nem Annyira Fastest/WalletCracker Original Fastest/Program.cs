@@ -1,29 +1,30 @@
 ﻿using System;
+using System.Collections.Concurrent; // For ConcurrentBag
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using NBitcoin;
 using Newtonsoft.Json.Linq;
 using System.IO;
-using System.Linq;
+using System.Threading;
 
 class Program
 {
     static int Sessions = 0;
+    private static readonly HttpClient httpClient = new HttpClient();
+    private static ConcurrentBag<WalletInfo> wallets = new ConcurrentBag<WalletInfo>();
+
+    static int ParallelTasks = 2;
+    static int BalanceCheck = 425;
 
     public class WalletInfo
     {
         public string Mnemonic { get; set; }
         public string Address { get; set; }
         public decimal Balance { get; set; }
-        public bool BalanceChecked { get; set; } = false; // Ez jelzi, hogy a pénztárca egyenlege már le lett-e kérdezve
+        public bool BalanceChecked { get; set; } = false;
     }
-
-    private static readonly HttpClient httpClient = new HttpClient();
-    private static List<WalletInfo> wallets = new List<WalletInfo>();
-
-    static int ParallelTasks = 1;
-    static int BalanceCheck = 425;
 
     static async Task Main(string[] args)
     {
@@ -39,9 +40,8 @@ class Program
     {
         await Task.Run(async () =>
         {
-            while (true) // Végtelen ciklus a folyamatos generáláshoz
+            while (true)
             {
-                // Limiting the number of parallel tasks to avoid overloading the thread pool
                 var tasksList = new List<Task>();
                 for (int i = 0; i < tasks; i++)
                 {
@@ -56,55 +56,46 @@ class Program
                         {
                             Mnemonic = mnemonic.ToString(),
                             Address = address,
-                            Balance = 0 // Kezdeti egyenleg beállítása 0-ra
+                            Balance = 0
                         };
-
-                        lock (wallets)
-                        {
-                            wallets.Add(wallet);
-                        }
+                        wallets.Add(wallet);
                     }));
                 }
+                await Task.Delay(50);
                 await Task.WhenAll(tasksList);
-                // Optionally, add a delay or a mechanism to pause/resume to manage workload and CPU usage
             }
         });
     }
 
-    static async Task QueryBalancesAsync(int BalanceCheck)
+    static async Task QueryBalancesAsync(int balanceCheck)
     {
         while (true)
         {
-            List<WalletInfo> walletsToCheck;
-            lock (wallets)
-            {
-                // Kiválasztjuk csak azokat a pénztárcákat, amelyek egyenlegét még nem ellenőriztük
-                walletsToCheck = wallets.Where(w => !w.BalanceChecked).ToList();
-            }
+            IEnumerable<WalletInfo> walletsToCheck = wallets.Where(w => !w.BalanceChecked).ToList();
 
-            for (int i = 0; i < walletsToCheck.Count; i += BalanceCheck)
+            for (int i = 0; i < walletsToCheck.Count(); i += balanceCheck)
             {
-                var batch = walletsToCheck.Skip(i).Take(BalanceCheck);
+                var batch = walletsToCheck.Skip(i).Take(balanceCheck);
                 string addresses = string.Join("|", batch.Select(w => w.Address));
 
                 try
                 {
                     string apiUrl = $"https://blockchain.info/balance?active={addresses}";
                     string json = await httpClient.GetStringAsync(apiUrl);
-                    dynamic data = JObject.Parse(json);
+                    JObject data = JObject.Parse(json);
 
                     foreach (var wallet in batch)
                     {
-                        decimal balance = (decimal)data[wallet.Address]["final_balance"] / 100000000; // Convert from satoshis to BTC
+                        decimal balance = (decimal)data[wallet.Address]["final_balance"] / 100000000;
                         wallet.Balance = balance;
-                        wallet.BalanceChecked = true; // Jelöljük, hogy le lett kérdezve az egyenleg
+                        wallet.BalanceChecked = true;
                         Sessions++;
                         Console.WriteLine($"Checked Wallets: {Sessions} | Balance: {balance} BTC | Mnemonic: {wallet.Mnemonic}");
 
                         if (balance > 0)
                         {
                             string walletInfo = $"Checked Wallets: {Sessions} | Balance: {balance} BTC | Mnemonic: {wallet.Mnemonic} | Address: {wallet.Address}\n";
-                            using (StreamWriter writer = File.AppendText("wallets_with_balance.txt"))
+                            using (StreamWriter writer = new StreamWriter("wallets_with_balance.txt", append: true))
                             {
                                 await writer.WriteLineAsync(walletInfo);
                             }
@@ -114,9 +105,11 @@ class Program
                 catch (Exception e)
                 {
                     Console.WriteLine($"Error querying balance: {e.Message}");
+                    // Implement retry logic based on specific conditions
                 }
-                await Task.Delay(50); // Rate limiting miatt késleltetés
+                await Task.Delay(50); // Example rate limiting, adjust based on API feedback
             }
         }
     }
+
 }

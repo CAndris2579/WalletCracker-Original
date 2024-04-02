@@ -14,3 +14,44 @@ D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest
 D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\obj\Debug\WalletCr.17506892.Up2Date
 D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\obj\Debug\WalletCracker Original Fastest.exe
 D:\GitHub Projects\WalletCracker Original Fastest\WalletCracker Original Fastest\obj\Debug\WalletCracker Original Fastest.pdb
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\WalletCracker Original Fastest.exe.config
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\WalletCracker Original Fastest.exe
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\WalletCracker Original Fastest.pdb
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\NBitcoin.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Buffers.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\NBitcoin.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\Newtonsoft.Json.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Buffers.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\obj\Debug\WalletCracker Original Fastest.csproj.AssemblyReference.cache
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\obj\Debug\WalletCracker Original Fastest.csproj.CoreCompileInputs.cache
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\obj\Debug\WalletCr.17506892.Up2Date
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\obj\Debug\WalletCracker Original Fastest.exe
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\obj\Debug\WalletCracker Original Fastest.pdb
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\ComputeSharp.Core.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\ComputeSharp.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\ILGPU.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\ManagedCuda.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Collections.Immutable.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Drawing.Common.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Memory.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Numerics.Vectors.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Reflection.Metadata.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\ComputeSharp.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\ComputeSharp.Core.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\ILGPU.pdb
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\ILGPU.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Collections.Immutable.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Memory.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Numerics.Vectors.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Reflection.Metadata.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Threading.Tasks.Extensions.xml
