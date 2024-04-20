@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GitHub Projects\\WalletCracker-Original\\WalletCracker Original Nem Annyira Fastest\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E9619623-499E-498D-ADD8-32B718F5D8B6}|WalletCracker Original Fastest\\WalletCracker Original Fastest.csproj|d:\\github projects\\walletcracker-original\\walletcracker original nem annyira fastest\\walletcracker original fastest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9619623-499E-498D-ADD8-32B718F5D8B6}|WalletCracker Original Fastest\\WalletCracker Original Fastest.csproj|solutionrelative:walletcracker original fastest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub Projects\\WalletCracker-Original\\WalletCracker Original Nem Annyira Fastest\\WalletCracker Original Fastest\\Program.cs",
-              "RelativeDocumentMoniker": "WalletCracker Original Fastest\\Program.cs",
-              "ToolTip": "D:\\GitHub Projects\\WalletCracker-Original\\WalletCracker Original Nem Annyira Fastest\\WalletCracker Original Fastest\\Program.cs",
-              "RelativeToolTip": "WalletCracker Original Fastest\\Program.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwC8AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T08:40:42.693Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

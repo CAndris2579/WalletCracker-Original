@@ -50,6 +50,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
     <Reference Include="ComputeSharp, Version=2.1.0.0, Culture=neutral, PublicKeyToken=dc35fa229f6881d8, processorArchitecture=MSIL">
       <HintPath>..\packages\ComputeSharp.2.1.0\lib\netstandard2.0\ComputeSharp.dll</HintPath>
     </Reference>

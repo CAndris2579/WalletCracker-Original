@@ -55,3 +55,5 @@ D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fas
 D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Reflection.Metadata.xml
 D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\BouncyCastle.Crypto.dll
+D:\GitHub Projects\WalletCracker-Original\WalletCracker Original Nem Annyira Fastest\WalletCracker Original Fastest\bin\Debug\BouncyCastle.Crypto.xml
